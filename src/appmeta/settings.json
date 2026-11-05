@@ -1,0 +1,19 @@
+{
+  "format_version": 1,
+  "version": 1,
+  "fields": {
+    "max_laps": {
+      "type": "integer",
+      "label": "Lap limit",
+      "default": 20,
+      "min": 1,
+      "max": 50,
+      "step": 1
+    },
+    "tenths": {
+      "type": "boolean",
+      "label": "Tenths",
+      "default": true
+    }
+  }
+}
