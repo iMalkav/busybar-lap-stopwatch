@@ -1,0 +1,55 @@
+{
+  "captured_at": "2026-11-05T13:52:46.848475+00:00",
+  "application": {
+    "format_version": 1,
+    "id": "app.imalkav.lap_stopwatch",
+    "name": "Lap Stopwatch",
+    "version": "0.1.0",
+    "api_version": "27.14.0",
+    "author": "iMalkav",
+    "description": "A stopwatch with pause, reset and a bounded lap history.",
+    "heap_size_kib": 256,
+    "debug": false
+  },
+  "firmware": {
+    "version": "r1051",
+    "target": 21,
+    "branch": "dev",
+    "build_date": "2026-10-30",
+    "commit_hash": "6ee64ba1",
+    "intercom_version": "6ee64ba1",
+    "nwp_version": "1611.2.1.1.255.11.71",
+    "matter_version": "1.0"
+  },
+  "api_version": "27.15.0",
+  "method": "GET /api/screen?display=0 and display=1; base64 decoded and saved as PNG without resizing or retouching",
+  "settings": {
+    "version": 1,
+    "values": {
+      "max_laps": 20,
+      "tenths": true
+    }
+  },
+  "inputs": [
+    "ok"
+  ],
+  "data_note": "Schema default settings.",
+  "fixture": null,
+  "frames": [
+    {
+      "path": "screenshots/front.png",
+      "width": 72,
+      "height": 16,
+      "frame_sha256": "88d4915d29ad7c0ce09ab86319044310b9d68150259922221ade227037fe25a9",
+      "png_sha256": "2a1057a4028c4cb6d72e9dbe08575ffe18152d0c2dfbd19a5b743d347d2df03d"
+    },
+    {
+      "path": "screenshots/back.png",
+      "width": 160,
+      "height": 80,
+      "frame_sha256": "fc7cf9b8d50fd9566949f5db78a788c6cea2665650fdcccc594b3e69cd314be0",
+      "png_sha256": "82ee7599ce393ecd0495bbd35976bc32b34b90068a7eaeb78412c7c0211bf850"
+    }
+  ],
+  "verification": "Installed, launched, captured both displays, then quit via the device API. This is not comprehensive physical-device testing or verification on the latest release firmware."
+}
